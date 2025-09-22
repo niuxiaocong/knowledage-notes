@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" modified="2023-03-10T07:58:26.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-XtnUMfIR6FtOjnkVbB6" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="AEGkfUW8Rd3gNZSUKxyZ">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-15" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="81" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-2" value="堆（Heap）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="135" y="1" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="10" y="31" width="160" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-4" value="新生代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="60" y="32" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="170" y="31" width="160" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-6" value="老年代（Tenure/Old Generation）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="190" y="85.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-8" value="伊甸园（Eden）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="10" y="61" width="160" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="10" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="90" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-11" value="S0（From）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="20" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-12" value="S1&lt;br&gt;（To）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="100" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="340" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-14" value="永久代&lt;br&gt;（Permanent Generation）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-15">
+          <mxGeometry x="346" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-16" value="JDK7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-17" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="361" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-19" value="堆（Heap）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="135" y="1" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="10" y="31" width="160" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-21" value="新生代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="60" y="32" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="170" y="31" width="160" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-23" value="老年代（Tenure/Old Generation）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="190" y="85.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-24" value="伊甸园（Eden）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="10" y="61" width="160" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="10" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="90" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-27" value="S0（From）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="20" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-28" value="S1&lt;br&gt;（To）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="100" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="340" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-30" value="元空间&lt;br&gt;（MetaSpace）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-17">
+          <mxGeometry x="346" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-31" value="JDK8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-32" value="新生代和老年代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="579" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="624" width="499" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry width="499" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="20" y="35" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-35" value="年轻代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="7" y="4" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-36" value="Old Gen" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="20" y="120" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-37" value="年轻代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="7" y="94" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-38" value="Eden" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="30" y="42" width="206" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-39" value="Survivor 0&lt;br&gt;（From）" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="248" y="42" width="105" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-40" value="Survivor 1&lt;br&gt;（To）" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-41">
+          <mxGeometry x="364" y="42" width="103" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="37" y="902" width="499" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry width="499" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="20" y="35" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-45" value="年轻代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="7" y="4" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-46" value="Old Gen" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="20" y="120" width="456" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-47" value="年轻代" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="7" y="94" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-48" value="Eden(8/10)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="30" y="42" width="206" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-49" value="Survivor 0&lt;br&gt;（From 1/10）" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="248" y="42" width="105" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-50" value="Survivor 1&lt;br&gt;（To 1/10）" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="VwBYNaKQ1ewOQ3q8wnKF-42">
+          <mxGeometry x="364" y="42" width="103" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VwBYNaKQ1ewOQ3q8wnKF-53" value="新生代占整个堆内存的1/3&lt;br&gt;老年代占整个堆内存的2/3" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="927" width="142" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

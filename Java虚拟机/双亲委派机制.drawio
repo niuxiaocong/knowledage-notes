@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2023-03-09T02:52:32.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tnrWgqLVod-Yfbnps70z" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="dRgk_Ll-ChPZPzZBD6Xz">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-2" value="引导类加载器&lt;br&gt;（BootStrap ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m2g5PT7JU5CPIZej69MQ-4" target="m2g5PT7JU5CPIZej69MQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-4" value="扩展类加载器&lt;br&gt;（Extension ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m2g5PT7JU5CPIZej69MQ-6" target="m2g5PT7JU5CPIZej69MQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-6" value="应用类加载器&lt;br&gt;（Application ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m2g5PT7JU5CPIZej69MQ-8" target="m2g5PT7JU5CPIZej69MQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-8" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m2g5PT7JU5CPIZej69MQ-10" target="m2g5PT7JU5CPIZej69MQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-10" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-15" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-16" value="向上委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="601" y="59" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="601" y="59" />
+              <mxPoint x="601" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2g5PT7JU5CPIZej69MQ-18" value="当父类加载失败&lt;br&gt;父类向下委托" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

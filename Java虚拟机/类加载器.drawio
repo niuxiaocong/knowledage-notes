@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-03-09T02:30:29.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0MOODE7nTsPplbDin8f5" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="Ssa0PFCsEyfmm3Dwcc8X">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D2NcALB82OTBccz-WXtD-1" value="引导类加载器&lt;br&gt;（BootStrap ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-2" target="D2NcALB82OTBccz-WXtD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-2" value="扩展类加载器&lt;br&gt;（Extension ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="107" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-4" target="D2NcALB82OTBccz-WXtD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-4" value="系统类加载器&lt;br&gt;（System ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="172" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-6" target="D2NcALB82OTBccz-WXtD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-6" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="255" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-7" target="D2NcALB82OTBccz-WXtD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-7" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="255" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-8" target="D2NcALB82OTBccz-WXtD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-8" value="自定义类加载器&lt;br&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2NcALB82OTBccz-WXtD-9" target="D2NcALB82OTBccz-WXtD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2NcALB82OTBccz-WXtD-9" value="自定义类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（User Defined ClassLoader）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

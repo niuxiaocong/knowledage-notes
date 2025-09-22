@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="第 1 页" id="ZT99GJbwq7KMULDV_Ie_">
+    <mxGraphModel dx="2066" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="76" y="213" width="351" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-2" value="方法区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="66" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-3" value="方法区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="209" y="169" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-4" value="类元信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="232" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-5" value="字段信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="232" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-6" value="方法信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="235" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-7" value="运行时常量池" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="288" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-8" value="静态变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="288" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-9" value="JIT缓存代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="291" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-10" value="JDK6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="465" width="227" height="287" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="468" width="149" height="287" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-13" value="堆(Heap)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="476" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-14" value="方法区（概念）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146.75" y="468" width="85.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-15" value="永久代（PermGen）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="495" width="85.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-16" value="类型信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="538" width="101" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-17" value="域信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="538" width="101" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-21" value="方法信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="582" width="101" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-22" value="静态变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="582" width="101" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-23" value="JIT代码缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="626" width="212" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="670" width="212" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-25" value="运行时常量池" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146.75" y="670" width="85.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI_PuQ9Zid8PcH8CalEX-27" value="StringTable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124.25" y="700" width="130.5" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
