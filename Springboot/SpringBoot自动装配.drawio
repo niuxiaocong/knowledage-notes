@@ -1,20 +1,29 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="ZmwT_X2YFcdZnKuKyjx4">
-    <mxGraphModel dx="1213" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9y2OMBUPptEPePD41EP_-1" value="Spring 阶段划分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        <mxCell id="9y2OMBUPptEPePD41EP_-1" value="Spring 阶段划分" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="71" y="43" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9y2OMBUPptEPePD41EP_-2" value="第一阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="200" height="40" as="geometry" />
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-1" value="第一阶段（Spring1.0）&lt;br&gt;（主要是基于XML配置的方式）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="130" width="170" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9y2OMBUPptEPePD41EP_-3" value="第二阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="200" height="40" as="geometry" />
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-2" value="第二阶段（Spring2.0）&lt;br&gt;（基于XML配置+注解）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fff2cc;strokeColor=#d6b656;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="342.7" y="130" width="174.3" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9y2OMBUPptEPePD41EP_-4" value="第三阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="120" width="200" height="40" as="geometry" />
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-3" value="第三阶段（Spring3.0 ~ 至今）&lt;br&gt;（脱离xml，基于注解的形式）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#f8cecc;strokeColor=#b85450;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="612" y="130" width="169" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-12" value="在这个阶段衍生出来的注解有@Transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="207" width="173" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-13" value="在这个阶段衍生出来的注解有&lt;br&gt;@Required,@Repository,&lt;div&gt;@Aspect,@Autowired,&lt;/div&gt;&lt;div&gt;@Qualifier,@Component,&lt;/div&gt;&lt;div&gt;@Service,@Controller,&lt;/div&gt;&lt;div&gt;@RequestMapping&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="342.7" y="207" width="173" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-14" value="在这个阶段衍生出来的注解有&lt;br&gt;&lt;font style=&quot;color: rgb(255, 102, 179);&quot;&gt;@Configuration&lt;/font&gt;，&lt;font style=&quot;color: rgb(255, 102, 179);&quot;&gt;@Import&lt;/font&gt;，&lt;font style=&quot;color: rgb(255, 102, 179);&quot;&gt;@ComponentScan&lt;/font&gt;，&lt;font style=&quot;color: rgb(255, 102, 179);&quot;&gt;@ImportResourse&lt;/font&gt;，@Conditional" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="612" y="210" width="173" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
