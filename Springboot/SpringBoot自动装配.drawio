@@ -7,7 +7,7 @@
         <mxCell id="9y2OMBUPptEPePD41EP_-1" value="Spring 阶段划分" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="71" y="43" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CRIQ0p4wAAM1cMivIsNs-1" value="第一阶段（Spring1.0）&lt;br&gt;（主要是基于XML配置的方式）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-1" value="第一阶段（Spring1.0）&lt;br&gt;（基于XML配置的方式）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
           <mxGeometry x="73" y="130" width="170" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-2" value="第二阶段（Spring2.0）&lt;br&gt;（基于XML配置+注解）" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fff2cc;strokeColor=#d6b656;textShadow=0;labelBackgroundColor=none;glass=0;" vertex="1" parent="1">
