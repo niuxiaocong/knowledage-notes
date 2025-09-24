@@ -76,10 +76,8 @@
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-37" value="&lt;span style=&quot;text-align: left;&quot;&gt;selectImports方法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="1186" width="119" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CRIQ0p4wAAM1cMivIsNs-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-39">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="303.3" y="1405" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-39" target="CRIQ0p4wAAM1cMivIsNs-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;getCandidateConfigurations&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="86.3" y="1381" width="175" height="48" as="geometry" />
@@ -125,7 +123,7 @@
           <mxGeometry x="86.3" y="1247" width="119" height="48" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-52" value="&lt;span style=&quot;&quot;&gt;加载META-INF/spring.factories文件中声明的配置类&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="69.99999999999999" y="1351" width="190" height="30" as="geometry" />
+          <mxGeometry x="57.999999999999986" y="1353" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-54" value="获取注解的元数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="92.05" y="1230" width="107.5" height="30" as="geometry" />
