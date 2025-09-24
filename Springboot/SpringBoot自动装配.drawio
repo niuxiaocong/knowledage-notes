@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="ZmwT_X2YFcdZnKuKyjx4">
-    <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-18" value="@SpringBootConfiguration注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="56" y="571" width="169" height="40" as="geometry" />
+          <mxGeometry x="56" y="555" width="169" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-19" target="CRIQ0p4wAAM1cMivIsNs-26">
           <mxGeometry relative="1" as="geometry" />
@@ -47,25 +47,103 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-19" value="@EnableAutoConfiguration注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="291.3" y="571" width="171.8" height="40" as="geometry" />
+          <mxGeometry x="291.3" y="555" width="171.8" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-20" value="@ComponentScan注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="615" y="571" width="166" height="40" as="geometry" />
+          <mxGeometry x="615" y="555" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-24" value="@Configuration注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="56" y="691" width="169" height="40" as="geometry" />
+          <mxGeometry x="56" y="638" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-26" target="CRIQ0p4wAAM1cMivIsNs-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-26" value="@AutoConfigurationPackage注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="286.15" y="769" width="182.1" height="40" as="geometry" />
+          <mxGeometry x="286" y="638" width="182.1" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-28" value="@Import注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="491" y="767" width="87" height="40" as="geometry" />
+          <mxGeometry x="490.85" y="636" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-31" value="@SpringBootApplication注解" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="56" y="406" width="184" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CRIQ0p4wAAM1cMivIsNs-32" value="Spring 阶段划分" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="56" y="46" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-33" value="@Import注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="303.2" y="714" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-37" value="&lt;span style=&quot;text-align: left;&quot;&gt;selectImports方法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1186" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-39" target="CRIQ0p4wAAM1cMivIsNs-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;getCandidateConfigurations&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1367" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-40" target="CRIQ0p4wAAM1cMivIsNs-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-40" target="CRIQ0p4wAAM1cMivIsNs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-40" target="CRIQ0p4wAAM1cMivIsNs-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-40" target="CRIQ0p4wAAM1cMivIsNs-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-40" target="CRIQ0p4wAAM1cMivIsNs-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-40" value="&lt;span style=&quot;text-align: left;&quot;&gt;selectImports&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="1495" width="119" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-42" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;removeDuplicates&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1495" width="119" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;getExclusions&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1623" width="119" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-44" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;fireAutoConfigurationImportEvents&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1775" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-45" value="getAttributes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1233" width="119" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-52" value="&lt;span style=&quot;&quot;&gt;加载META-INF/spring.factories文件中声明的配置类&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="152.7" y="1337" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-54" value="获取注解的元数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="174.75" y="1216" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-55" value="去重操作" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="174.75" y="1469" width="86.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-56" value="排除掉某些依赖" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="174.75" y="1600" width="86.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-57" value="过滤掉不需要的配置" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="171" y="1754" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-58" target="CRIQ0p4wAAM1cMivIsNs-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRIQ0p4wAAM1cMivIsNs-58" target="CRIQ0p4wAAM1cMivIsNs-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-58" value="SpringFactoriesLoader.loadFactoryNames()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="386" y="1367" width="232.8" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-60" value="&lt;i&gt;loadSpringFactories(classLoader)&lt;br&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="623" y="1272" width="184" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-62" value="getOrDefault(factoryTypeName, Collections.emptyList())" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="623" y="1454" width="184" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CRIQ0p4wAAM1cMivIsNs-64" value="&lt;span style=&quot;&quot;&gt;加载META-INF/spring.factories文件中声明的配置类的具体实现&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#F2CC8F;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="1251" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
