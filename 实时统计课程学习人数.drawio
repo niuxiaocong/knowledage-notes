@@ -5,33 +5,168 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6huJSF5PGH5NUArN5M34-6" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="120" height="550" as="geometry" />
+          <mxGeometry x="200" y="120" width="120" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6huJSF5PGH5NUArN5M34-6">
+          <mxGeometry x="55" y="79" width="10" height="601" as="geometry" />
         </mxCell>
         <mxCell id="6huJSF5PGH5NUArN5M34-8" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="120" height="550" as="geometry" />
+          <mxGeometry x="440" y="120" width="120" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6huJSF5PGH5NUArN5M34-8">
+          <mxGeometry x="55" y="116" width="10" height="564" as="geometry" />
         </mxCell>
         <mxCell id="6huJSF5PGH5NUArN5M34-9" value="Redis缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="120" width="120" height="550" as="geometry" />
+          <mxGeometry x="960" y="120" width="120" height="760" as="geometry" />
         </mxCell>
         <mxCell id="6huJSF5PGH5NUArN5M34-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="40" height="550" as="geometry" />
+          <mxGeometry x="80" y="120" width="40" height="760" as="geometry" />
         </mxCell>
-        <mxCell id="6huJSF5PGH5NUArN5M34-12" value="点击课程卡片" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="6huJSF5PGH5NUArN5M34-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6huJSF5PGH5NUArN5M34-10">
+          <mxGeometry x="15" y="79" width="10" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-12" value="点击课程卡片" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="6huJSF5PGH5NUArN5M34-16">
           <mxGeometry x="0.0031" width="80" relative="1" as="geometry">
-            <mxPoint x="100" y="199.9966666666666" as="sourcePoint" />
+            <mxPoint x="110" y="200" as="sourcePoint" />
             <mxPoint x="259.5" y="199.9966666666666" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6huJSF5PGH5NUArN5M34-14" value="调用后端接口，发送心跳" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="6huJSF5PGH5NUArN5M34-8">
+        <mxCell id="6huJSF5PGH5NUArN5M34-14" value="调用后端接口，每60s发送心跳" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="6huJSF5PGH5NUArN5M34-20">
           <mxGeometry x="0.0031" width="80" relative="1" as="geometry">
-            <mxPoint x="260" y="240" as="sourcePoint" />
-            <mxPoint x="419.5" y="240" as="targetPoint" />
+            <mxPoint x="265" y="239" as="sourcePoint" />
+            <mxPoint x="490" y="239" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6huJSF5PGH5NUArN5M34-15" value="Redis数据结构选用SortSet&lt;br&gt;k - v 格式&lt;br&gt;k：course:online:课程id/课程目录id&lt;br&gt;v：sid_学生id&amp;nbsp; 分数（进入学习的事件戳）&lt;br&gt;&lt;br&gt;zadd course:online:课程id/课程目录id&amp;nbsp; &amp;nbsp; &amp;nbsp;score（进入学习的事件戳）uid_学生id&amp;nbsp;" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="880" width="450" height="120" as="geometry" />
+          <mxGeometry x="1080" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-22" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="255" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="505" y="255" />
+              <mxPoint x="555" y="255" />
+              <mxPoint x="555" y="305" />
+            </Array>
+            <mxPoint x="505" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-23" value="存储课程学习人数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-22">
+          <mxGeometry x="0.0292" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-24" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="6huJSF5PGH5NUArN5M34-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="505" y="336" as="sourcePoint" />
+            <mxPoint x="1029.5" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-25" value="&amp;nbsp;发送指令&amp;nbsp; &amp;nbsp;zadd course:online:课程id score（进入学习的事件戳）uid_学生id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-24">
+          <mxGeometry x="-0.1446" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-26" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="506" y="360" />
+              <mxPoint x="556" y="360" />
+              <mxPoint x="556" y="410" />
+            </Array>
+            <mxPoint x="506" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-31" value="监测在60s内&lt;br&gt;有没有收到心跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-26">
+          <mxGeometry x="-0.0089" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="506" y="441" as="sourcePoint" />
+            <mxPoint x="1020" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-34" value="&amp;nbsp;发送指令&amp;nbsp; &amp;nbsp;zremrangebyscore course:online:课程id 0 &amp;lt;当前事件戳 - 60000&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-33">
+          <mxGeometry x="-0.1446" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-35" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="678" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="506" y="678" />
+              <mxPoint x="556" y="678" />
+              <mxPoint x="556" y="728" />
+            </Array>
+            <mxPoint x="506" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-36" value="设置key的超时时间&amp;nbsp;&lt;br&gt;并不断续期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-35">
+          <mxGeometry x="0.0292" y="-1" relative="1" as="geometry">
+            <mxPoint x="25" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-37" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="506" y="758" as="sourcePoint" />
+            <mxPoint x="1020" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-38" value="&amp;nbsp;发送指令&amp;nbsp; &amp;nbsp;expire course:online:课程id&amp;nbsp; 超时时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-37">
+          <mxGeometry x="-0.1446" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-40" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="507" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="507" y="470" />
+              <mxPoint x="557" y="470" />
+              <mxPoint x="557" y="520" />
+            </Array>
+            <mxPoint x="507" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-41" value="返回正在学习的用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-40">
+          <mxGeometry x="0.0292" y="-1" relative="1" as="geometry">
+            <mxPoint x="25" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-42" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="506" y="539" as="sourcePoint" />
+            <mxPoint x="1020" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-43" value="&amp;nbsp;发送指令：zcount course:online:课程id&amp;nbsp; &amp;lt;当前事件戳 - 60000&amp;gt; inf&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6huJSF5PGH5NUArN5M34-42">
+          <mxGeometry x="-0.1446" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-44" value="返回正在学习人数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="576" as="sourcePoint" />
+            <mxPoint x="505" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-46" value="返回正在学习人数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="610" as="sourcePoint" />
+            <mxPoint x="266" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6huJSF5PGH5NUArN5M34-47" value="返回正在学习人数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="640" as="sourcePoint" />
+            <mxPoint x="99" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
