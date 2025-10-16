@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="l2zjzSVLTtTmNhwxg3qi">
-    <mxGraphModel>
+    <mxGraphModel dx="1213" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RRydfFNoVdOO5ogqqq86-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="40" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-4" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-5" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-6" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-8" value="视频播放" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="RRydfFNoVdOO5ogqqq86-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-9" value="播放过程中每10s上报心跳" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="RRydfFNoVdOO5ogqqq86-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-10" value="RedisKey设计&lt;br&gt;使用Hash结构：&lt;br&gt;key -&amp;gt;&amp;nbsp;video:playtime:{视频id}&lt;br&gt;value -&amp;gt; {用户id/学生}&amp;nbsp; 视频播放时长&amp;nbsp;&amp;nbsp;&lt;br&gt;记录每个用户的累计播放时长&lt;div&gt;&lt;div&gt;示例：&lt;br&gt;key: video:playtime:2002&lt;/div&gt;&lt;div&gt;value:&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;1001&quot;: 180,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;1002&quot;: 320&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;--------------------------------------------------------------------------------------------&lt;div&gt;key -&amp;gt; video:heartbeat&lt;/div&gt;&lt;div&gt;value -&amp;gt; { userId:时间戳}&lt;br&gt;使用Hash结构，没有用户最后一次上报的时间戳&lt;br&gt;示例&lt;/div&gt;&lt;div&gt;&lt;div&gt;key：video:heartbeat&lt;br&gt;value：{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-240" width="760" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-17" value="MySQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="920" y="240" width="120" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RRydfFNoVdOO5ogqqq86-18" value="记录用户" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="740" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
