@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="94s8cx3mF0yBZOBg3Grv">
-    <mxGraphModel>
+    <mxGraphModel dx="2040" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;glass=0;" value="订阅/关注流程" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="110" x="510" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="40" width="80" x="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-20" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="205" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-21" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-20" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a6-JWRuZYu9aLEzrHU8g-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;调用订阅方法&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-23" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取好友所属角色" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-25" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-24" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取角色处理工厂类" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-27" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-26" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="调用获取到的工厂订阅方法" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-29" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-28" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="前置参数校验" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-32" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-31" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="核心订阅处理流程" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-34" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-33" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="执行后置流程" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="a6-JWRuZYu9aLEzrHU8g-36" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-35" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
