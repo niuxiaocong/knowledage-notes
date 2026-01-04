@@ -1,151 +1,243 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="94s8cx3mF0yBZOBg3Grv">
-    <mxGraphModel dx="2254" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;glass=0;" value="订阅/关注流程" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="40" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消订阅/关注流程" vertex="1">
-          <mxGeometry height="40" width="110" x="440" y="40" as="geometry" />
+          <mxGeometry height="40" width="110" x="280" y="39" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
           <mxGeometry height="40" width="80" x="-440" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-20" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="205" y="84" as="geometry" />
+          <mxGeometry height="30" width="30" x="85" y="84" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-21" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-20" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a6-JWRuZYu9aLEzrHU8g-22" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="149" as="targetPoint" />
+            <mxPoint x="100" y="149" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;调用订阅方法&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="159" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="159" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-23" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="239" as="targetPoint" />
+            <mxPoint x="100" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取好友所属角色" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="239" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="239" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-25" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-24" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="319" as="targetPoint" />
+            <mxPoint x="100" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取角色处理工厂类" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="319" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="319" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-27" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-26" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="399" as="targetPoint" />
+            <mxPoint x="100" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="调用获取到的工厂订阅方法" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="400" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="400" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-29" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-28" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="480" as="targetPoint" />
+            <mxPoint x="100" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="前置参数校验" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="480" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="480" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-32" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-31" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="560" as="targetPoint" />
+            <mxPoint x="100" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="核心订阅处理流程" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="560" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="560" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-34" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-33" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="640" as="targetPoint" />
+            <mxPoint x="100" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="执行后置流程" vertex="1">
-          <mxGeometry height="40" width="120" x="160" y="640" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="640" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-36" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-35" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="720" as="targetPoint" />
+            <mxPoint x="100" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-37" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="205" y="720" as="geometry" />
+          <mxGeometry height="30" width="30" x="85" y="720" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-38" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="484" y="84" as="geometry" />
+          <mxGeometry height="30" width="30" x="324" y="83" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-39" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-38" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a6-JWRuZYu9aLEzrHU8g-40" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="149" as="targetPoint" />
+            <mxPoint x="339" y="148" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;调用取消订阅方法&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="159" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="158" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-41" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-40" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="239" as="targetPoint" />
+            <mxPoint x="339" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取好友所属角色" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="239" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="238" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-43" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-42" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="319" as="targetPoint" />
+            <mxPoint x="339" y="318" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取角色处理工厂类" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="319" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="318" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-45" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-44" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="399" as="targetPoint" />
+            <mxPoint x="339" y="398" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="调用获取到的工厂订阅方法" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="400" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="399" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-47" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-46" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="480" as="targetPoint" />
+            <mxPoint x="339" y="479" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="前置参数校验" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="480" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="479" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-49" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-48" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="560" as="targetPoint" />
+            <mxPoint x="339" y="559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="核心取消订阅处理流程" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="560" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="559" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-51" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-50" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="640" as="targetPoint" />
+            <mxPoint x="339" y="639" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="执行后置流程" vertex="1">
-          <mxGeometry height="40" width="120" x="439" y="640" as="geometry" />
+          <mxGeometry height="40" width="120" x="279" y="639" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-53" edge="1" parent="1" source="a6-JWRuZYu9aLEzrHU8g-52" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499" y="720" as="targetPoint" />
+            <mxPoint x="339" y="719" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-54" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="484" y="720" as="geometry" />
+          <mxGeometry height="30" width="30" x="324" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消订阅/关注流程" vertex="1">
+          <mxGeometry height="40" width="110" x="518" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-7" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="563" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578.0000000000005" y="107" as="sourcePoint" />
+            <mxPoint x="578" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="获取待审核订阅列表" vertex="1">
+          <mxGeometry height="40" width="120" x="518" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-11" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-10" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="同意/拒绝" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-18" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-17" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.439;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="HlEW0eZDvoX7CtsxPYNQ-29" value="no">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="720" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-19" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-17" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="yes">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="580" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="好友关系更新&lt;br&gt;（已确认）" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-21" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-20" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="好友关系更新&lt;br&gt;（已确认）" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-23" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="待审核列表缓存删除" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-25" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-24" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="用户关系互刷" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-27" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-26" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-28" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="565" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="好友关系更新&lt;br&gt;（已确认）" vertex="1">
+          <mxGeometry height="40" width="120" x="679" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-33" edge="1" parent="1" source="HlEW0eZDvoX7CtsxPYNQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="HlEW0eZDvoX7CtsxPYNQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="419" />
+              <mxPoint x="659" y="419" />
+              <mxPoint x="659" y="654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="好友关系更新&lt;br&gt;（已确认）" vertex="1">
+          <mxGeometry height="40" width="120" x="679" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="359" as="sourcePoint" />
+            <mxPoint x="734" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-34" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ item: attribute" vertex="1">
+          <mxGeometry height="26" width="100" x="870" y="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
