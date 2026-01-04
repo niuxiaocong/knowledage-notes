@@ -8,7 +8,7 @@
           <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消订阅/关注流程" vertex="1">
-          <mxGeometry height="40" width="110" x="280" y="39" as="geometry" />
+          <mxGeometry height="40" width="120" x="280" y="39" as="geometry" />
         </mxCell>
         <mxCell id="a6-JWRuZYu9aLEzrHU8g-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
           <mxGeometry height="40" width="80" x="-440" as="geometry" />
@@ -148,7 +148,7 @@
           <mxGeometry height="30" width="30" x="324" y="719" as="geometry" />
         </mxCell>
         <mxCell id="HlEW0eZDvoX7CtsxPYNQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消订阅/关注流程" vertex="1">
-          <mxGeometry height="40" width="110" x="518" y="40" as="geometry" />
+          <mxGeometry height="40" width="122" x="518" y="40" as="geometry" />
         </mxCell>
         <mxCell id="HlEW0eZDvoX7CtsxPYNQ-7" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="563" y="82" as="geometry" />
@@ -238,6 +238,9 @@
         </mxCell>
         <mxCell id="HlEW0eZDvoX7CtsxPYNQ-34" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ item: attribute" vertex="1">
           <mxGeometry height="26" width="100" x="870" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消订阅/关注流程" vertex="1">
+          <mxGeometry height="40" width="120" x="1080" y="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
