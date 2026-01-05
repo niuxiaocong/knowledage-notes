@@ -236,9 +236,6 @@
             <mxPoint x="734" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HlEW0eZDvoX7CtsxPYNQ-34" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ item: attribute" vertex="1">
-          <mxGeometry height="26" width="100" x="830" as="geometry" />
-        </mxCell>
         <mxCell id="HlEW0eZDvoX7CtsxPYNQ-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="群组创建" vertex="1">
           <mxGeometry height="40" width="120" x="1080" y="39" as="geometry" />
         </mxCell>
