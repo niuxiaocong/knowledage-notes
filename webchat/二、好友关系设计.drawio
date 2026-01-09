@@ -302,6 +302,53 @@
         <mxCell id="oX09yt1TsL2ayeR075r9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="好友添加消息红点提醒" vertex="1">
           <mxGeometry height="40" width="162" x="-802" y="39" as="geometry" />
         </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-3" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="59.52" x="-569.76" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-13" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-14" connectable="0" parent="oX09yt1TsL2ayeR075r9-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/client-service/chat/account-relation/subscribe/{{account}}" vertex="1">
+          <mxGeometry relative="1" x="-0.2797" as="geometry">
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="订阅者" vertex="1">
+          <mxGeometry height="60" width="30" x="-940" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-20" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oX09yt1TsL2ayeR075r9-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取订阅者和&lt;br&gt;被订阅者的关联信息" vertex="1">
+          <mxGeometry height="60" width="130" x="-600" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-22" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oX09yt1TsL2ayeR075r9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-23" connectable="0" parent="oX09yt1TsL2ayeR075r9-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2276" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-25" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oX09yt1TsL2ayeR075r9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-26" connectable="0" parent="oX09yt1TsL2ayeR075r9-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.4958" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否获取到" vertex="1">
+          <mxGeometry height="80" width="120" x="-595" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="-781" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="-430" y="559" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
