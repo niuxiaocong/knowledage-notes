@@ -302,12 +302,9 @@
         <mxCell id="oX09yt1TsL2ayeR075r9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="好友添加消息红点提醒" vertex="1">
           <mxGeometry height="40" width="162" x="-802" y="39" as="geometry" />
         </mxCell>
-        <mxCell id="oX09yt1TsL2ayeR075r9-3" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
-          <mxGeometry height="50" width="59.52" x="-569.76" y="198" as="geometry" />
-        </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-13" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-600" y="360" as="targetPoint" />
+            <mxPoint x="-600" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-14" connectable="0" parent="oX09yt1TsL2ayeR075r9-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/client-service/chat/account-relation/subscribe/{{account}}" vertex="1">
@@ -316,13 +313,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="订阅者" vertex="1">
-          <mxGeometry height="60" width="30" x="-940" y="328" as="geometry" />
+          <mxGeometry height="60" width="30" x="-940" y="159" as="geometry" />
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-20" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oX09yt1TsL2ayeR075r9-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取订阅者和&lt;br&gt;被订阅者的关联信息" vertex="1">
-          <mxGeometry height="60" width="130" x="-600" y="328" as="geometry" />
+          <mxGeometry height="60" width="130" x="-600" y="159" as="geometry" />
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-22" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oX09yt1TsL2ayeR075r9-21">
           <mxGeometry relative="1" as="geometry" />
@@ -341,13 +338,74 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oX09yt1TsL2ayeR075r9-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否获取到" vertex="1">
-          <mxGeometry height="80" width="120" x="-595" y="440" as="geometry" />
+          <mxGeometry height="80" width="120" x="-595" y="271" as="geometry" />
         </mxCell>
-        <mxCell id="oX09yt1TsL2ayeR075r9-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="-781" y="559" as="geometry" />
+        <mxCell id="oX09yt1TsL2ayeR075r9-29" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="oX09yt1TsL2ayeR075r9-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oX09yt1TsL2ayeR075r9-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="-430" y="559" as="geometry" />
+        <mxCell id="oX09yt1TsL2ayeR075r9-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="存储订阅者和被订阅者的信息" vertex="1">
+          <mxGeometry height="60" width="120" x="-781" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-28" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="oX09yt1TsL2ayeR075r9-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新订阅者和被订阅者的信息" vertex="1">
+          <mxGeometry height="60" width="120" x="-420" y="391" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-33" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="oX09yt1TsL2ayeR075r9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="后置流程异步执行" vertex="1">
+          <mxGeometry height="60" width="120" x="-595" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-35" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="oX09yt1TsL2ayeR075r9-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-39" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="661" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="推送websocket&lt;br&gt;redis发布订阅" vertex="1">
+          <mxGeometry height="60" width="120" x="-595" y="631" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="待审核用户添加到审核redis列表" vertex="1">
+          <mxGeometry height="60" width="120" x="-595" y="757" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-36" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="被订阅者" vertex="1">
+          <mxGeometry height="60" width="30" x="-101" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-41" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="oX09yt1TsL2ayeR075r9-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="861" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-44" connectable="0" parent="oX09yt1TsL2ayeR075r9-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0984" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-50" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oX09yt1TsL2ayeR075r9-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-51" connectable="0" parent="oX09yt1TsL2ayeR075r9-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1064" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="被订阅者是否在线" vertex="1">
+          <mxGeometry height="80" width="120" x="-330" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-55" edge="1" parent="1" source="oX09yt1TsL2ayeR075r9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="oX09yt1TsL2ayeR075r9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-56" connectable="0" parent="oX09yt1TsL2ayeR075r9-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="主动拉取被审核的用户列表" vertex="1">
+          <mxGeometry relative="1" x="0.027" y="3" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oX09yt1TsL2ayeR075r9-49" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="被订阅者" vertex="1">
+          <mxGeometry height="60" width="30" x="-285" y="757" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
