@@ -8,13 +8,16 @@
           <mxGeometry height="40" width="80" as="geometry" />
         </mxCell>
         <mxCell id="kbYBVk6KRCSJGso0TspY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="基础支撑平台" vertex="1">
-          <mxGeometry height="80" width="120" x="120" y="360" as="geometry" />
+          <mxGeometry height="80" width="120" x="120" y="400" as="geometry" />
         </mxCell>
         <mxCell id="kbYBVk6KRCSJGso0TspY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="营销" vertex="1">
-          <mxGeometry height="80" width="120" x="320" y="360" as="geometry" />
+          <mxGeometry height="80" width="120" x="360" y="400" as="geometry" />
         </mxCell>
         <mxCell id="kbYBVk6KRCSJGso0TspY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="webhook服务" vertex="1">
-          <mxGeometry height="80" width="120" x="200" y="200" as="geometry" />
+          <mxGeometry height="80" width="120" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uSAfI0WSA3SDsLmPnxgk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据沉淀/调用层" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
