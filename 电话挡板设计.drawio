@@ -16,8 +16,20 @@
         <mxCell id="kbYBVk6KRCSJGso0TspY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="webhook服务" vertex="1">
           <mxGeometry height="80" width="120" x="240" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="uSAfI0WSA3SDsLmPnxgk-5" edge="1" parent="1" source="uSAfI0WSA3SDsLmPnxgk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kbYBVk6KRCSJGso0TspY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSAfI0WSA3SDsLmPnxgk-6" edge="1" parent="1" source="uSAfI0WSA3SDsLmPnxgk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kbYBVk6KRCSJGso0TspY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据沉淀/调用层" vertex="1">
           <mxGeometry height="80" width="120" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uSAfI0WSA3SDsLmPnxgk-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB" vertex="1">
+          <mxGeometry height="80" width="70" x="590" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uSAfI0WSA3SDsLmPnxgk-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="前端页面&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="540" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
