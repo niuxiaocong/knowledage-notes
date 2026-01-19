@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="第 1 页" id="ync8KpEkqTjt0FGQTfzP">
-    <mxGraphModel dx="2849" dy="2386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2444" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,6 +239,9 @@
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置条件（相等、包含）" vertex="1">
           <mxGeometry height="80" width="200" x="1000" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-70" parent="1" style="text;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="{&#xa;    &quot;ruleId&quot;: 1,&#xa;    &quot;ruleName&quot;: &quot;&quot;,&#xa;    &quot;priority&quot;: 1,&#xa;    &quot;conditionRelation&quot;: &quot;&quot;,&#xa;    &quot;dataId&quot;: 1,&#xa;    &quot;dataName&quot;: &quot;&quot;,&#xa;    &quot;responseData&quot;: &quot;&quot;,&#xa;    &quot;conditions&quot;: [&#xa;        {&#xa;            &quot;id&quot;: 1,&#xa;            &quot;fieldName&quot;: &quot;&quot;,&#xa;            &quot;matchType&quot;: &quot;&quot;,&#xa;            &quot;fieldValue&quot;: &quot;&quot;,&#xa;            &quot;sortOrder&quot;: 1&#xa;        }&#xa;    ]&#xa;}" vertex="1">
+          <mxGeometry height="280" width="170" x="657" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
