@@ -55,6 +55,27 @@
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据表设计" vertex="1">
           <mxGeometry height="40" width="120" x="1654" y="400" as="geometry" />
         </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-9" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1、webhook开始调用" vertex="1">
+          <mxGeometry height="40" width="260" x="1320" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-11" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、根据接口编号查询接口信息" vertex="1">
+          <mxGeometry height="40" width="260" x="1320" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-13" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、根据接口的id查询这个接口下有那些配置规则&lt;br&gt;这一步骤会把这个规则下面绑定的数据和判断条件都查询出来" vertex="1">
+          <mxGeometry height="80" width="260" x="1320" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、将配置的规则和webhook调用入参里面data结构里面参数做比对，匹配成功就返回" vertex="1">
+          <mxGeometry height="40" width="260" x="1320" y="-80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
