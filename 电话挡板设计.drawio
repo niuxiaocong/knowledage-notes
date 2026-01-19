@@ -141,8 +141,23 @@
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Mock服务" vertex="1">
           <mxGeometry height="720" width="160" x="118" as="geometry" />
         </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-46" parent="uNfGVqDGNBUHPpB2Z7fW-29" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="524" width="10" x="75" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-47" edge="1" parent="uNfGVqDGNBUHPpB2Z7fW-29" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="根据接口编号查接口信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="188" />
+            </Array>
+            <mxPoint x="88" y="158" as="sourcePoint" />
+            <mxPoint x="94" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="DB" vertex="1">
           <mxGeometry height="720" width="160" x="399" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-52" parent="uNfGVqDGNBUHPpB2Z7fW-31" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="524" width="10" x="78" y="116" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
           <mxGeometry height="720" width="20" x="-331" as="geometry" />
@@ -157,7 +172,44 @@
           <mxGeometry relative="1" width="80" x="-0.0031" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="-81" y="118.5454545454545" as="sourcePoint" />
-            <mxPoint x="197.5" y="118.5454545454545" as="targetPoint" />
+            <mxPoint x="190" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="传参servicecode">
+          <mxGeometry relative="1" width="80" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="202" y="240" as="sourcePoint" />
+            <mxPoint x="479" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="数据返回配置的接口信息">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="474" y="280" as="sourcePoint" />
+            <mxPoint x="204" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-53" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="根据获取到的接口ID查询配置规则（）">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="350" />
+            </Array>
+            <mxPoint x="210" y="320" as="sourcePoint" />
+            <mxPoint x="216" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="uNfGVqDGNBUHPpB2Z7fW-52" value="传参interfaceId">
+          <mxGeometry relative="1" width="80" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="204" y="400" as="sourcePoint" />
+            <mxPoint x="472" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="返回配置的规则信息">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="474" y="440" as="sourcePoint" />
+            <mxPoint x="204" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
