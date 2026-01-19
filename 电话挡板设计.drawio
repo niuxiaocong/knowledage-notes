@@ -65,16 +65,16 @@
           <mxGeometry height="80" width="260" x="500" y="600" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="前端服务" vertex="1">
-          <mxGeometry height="880" width="160" x="-160" y="-1080" as="geometry" />
+          <mxGeometry height="880" width="160" x="-161" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Mock服务" vertex="1">
-          <mxGeometry height="880" width="160" x="121" y="-1080" as="geometry" />
+          <mxGeometry height="880" width="160" x="119" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="第三方系统" vertex="1">
-          <mxGeometry height="880" width="160" x="400" y="-1080" as="geometry" />
+          <mxGeometry height="880" width="160" x="399" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="DB" vertex="1">
-          <mxGeometry height="880" width="160" x="680" y="-1080" as="geometry" />
+          <mxGeometry height="880" width="160" x="679" y="-1080" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
           <mxGeometry height="880" width="20" x="-330" y="-1080" as="geometry" />
