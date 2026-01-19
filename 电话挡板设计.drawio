@@ -47,22 +47,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1、webhook开始调用" vertex="1">
-          <mxGeometry height="80" width="260" x="570" y="1159" as="geometry" />
+          <mxGeometry height="80" width="260" x="559" y="1169" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-11" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、根据接口编号查询接口信息" vertex="1">
-          <mxGeometry height="80" width="260" x="570" y="1320" as="geometry" />
+          <mxGeometry height="80" width="260" x="559" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-13" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、根据接口的id查询这个接口下有那些配置规则&lt;br&gt;这一步骤会把这个规则下面绑定的数据和判断条件都查询出来" vertex="1">
-          <mxGeometry height="80" width="260" x="570" y="1480" as="geometry" />
+          <mxGeometry height="80" width="260" x="559" y="1490" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、将配置的规则和webhook调用入参里面data结构里面参数做比对，匹配成功就返回" vertex="1">
-          <mxGeometry height="80" width="260" x="570" y="1680" as="geometry" />
+          <mxGeometry height="80" width="260" x="559" y="1690" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="前端服务" vertex="1">
           <mxGeometry height="520" width="160" x="-161" y="-1080" as="geometry" />
@@ -233,6 +233,27 @@
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-60" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="46" width="10" x="-325" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-65" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置接口信息" vertex="1">
+          <mxGeometry height="80" width="200" x="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-67" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="三方数据拉取" vertex="1">
+          <mxGeometry height="80" width="200" x="1000" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-69" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置匹配规则and/or" vertex="1">
+          <mxGeometry height="80" width="200" x="1000" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置条件（相等、包含）" vertex="1">
+          <mxGeometry height="80" width="200" x="1000" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
