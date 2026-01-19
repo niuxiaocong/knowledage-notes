@@ -222,7 +222,7 @@
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-65" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-64" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置接口信息" vertex="1">
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="维护&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接口信息&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="200" x="1000" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-67" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-66" value="">
