@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="第 1 页" id="ync8KpEkqTjt0FGQTfzP">
-    <mxGraphModel dx="2444" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,26 +28,26 @@
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据表设计" vertex="1">
           <mxGeometry height="40" width="120" x="904" y="1880" as="geometry" />
         </mxCell>
-        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-9" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-8" value="">
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-74" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-73" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1、webhook开始调用" vertex="1">
-          <mxGeometry height="80" width="260" x="559" y="1169" as="geometry" />
+          <mxGeometry height="80" width="266" x="1654" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-11" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、根据接口编号查询接口信息" vertex="1">
-          <mxGeometry height="80" width="260" x="559" y="1330" as="geometry" />
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、根据接口编号查询接口信息" vertex="1">
+          <mxGeometry height="80" width="266" x="1654" y="321" as="geometry" />
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-13" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、根据接口的id查询这个接口下有那些配置规则&lt;br&gt;这一步骤会把这个规则下面绑定的数据和判断条件都查询出来" vertex="1">
-          <mxGeometry height="80" width="260" x="559" y="1480" as="geometry" />
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、根据接口的id查询这个接口下有那些配置规则&lt;br&gt;这一步骤会把这个规则下面绑定的数据和判断条件都查询出来" vertex="1">
+          <mxGeometry height="80" width="266" x="1654" y="471" as="geometry" />
         </mxCell>
-        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、将配置的规则和webhook调用入参里面data结构里面参数做比对，匹配成功就返回" vertex="1">
-          <mxGeometry height="80" width="260" x="559" y="1680" as="geometry" />
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5、将配置的规则和webhook调用入参里面data结构里面参数做比对，匹配成功就返回" vertex="1">
+          <mxGeometry height="80" width="266" x="1654" y="640" as="geometry" />
         </mxCell>
         <mxCell id="uSAfI0WSA3SDsLmPnxgk-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="前端服务" vertex="1">
           <mxGeometry height="520" width="160" x="-161" y="-1080" as="geometry" />
@@ -242,6 +242,18 @@
         </mxCell>
         <mxCell id="uNfGVqDGNBUHPpB2Z7fW-70" parent="1" style="text;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="{&#xa;    &quot;ruleId&quot;: 1,&#xa;    &quot;ruleName&quot;: &quot;&quot;,&#xa;    &quot;priority&quot;: 1,&#xa;    &quot;conditionRelation&quot;: &quot;&quot;,&#xa;    &quot;dataId&quot;: 1,&#xa;    &quot;dataName&quot;: &quot;&quot;,&#xa;    &quot;responseData&quot;: &quot;&quot;,&#xa;    &quot;conditions&quot;: [&#xa;        {&#xa;            &quot;id&quot;: 1,&#xa;            &quot;fieldName&quot;: &quot;&quot;,&#xa;            &quot;matchType&quot;: &quot;&quot;,&#xa;            &quot;fieldValue&quot;: &quot;&quot;,&#xa;            &quot;sortOrder&quot;: 1&#xa;        }&#xa;    ]&#xa;}" vertex="1">
           <mxGeometry height="280" width="170" x="657" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="比如说这里规则配置and规则" vertex="1">
+          <mxGeometry height="50" width="250" x="1240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里配置条件比如 callingNo = ‘15127910138’ 和 consNo = ‘123456’" vertex="1">
+          <mxGeometry height="30" width="370" x="1240" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-75" edge="1" parent="1" source="uNfGVqDGNBUHPpB2Z7fW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uNfGVqDGNBUHPpB2Z7fW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNfGVqDGNBUHPpB2Z7fW-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、调用mock服务" vertex="1">
+          <mxGeometry height="80" width="266" x="1654" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
