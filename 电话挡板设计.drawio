@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="第 1 页" id="ync8KpEkqTjt0FGQTfzP">
-    <mxGraphModel dx="6040" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5480" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,6 +109,12 @@
             <mxPoint y="3320" as="sourcePoint" />
             <mxPoint x="1660" y="3320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3u21eJzh6Ti2ZoVB81ai-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="三方接口信息：接口编码；接口名称；接口描述；接口调用地址；接口调用方式（webservice/http）；接口参数请求示例" vertex="1">
+          <mxGeometry height="60" width="634" x="6" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="3u21eJzh6Ti2ZoVB81ai-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mock数据页：数据名称、提供接口信息选择、选择完以后回显调用地址、请求方式以及请求参数示例" vertex="1">
+          <mxGeometry height="60" width="634" x="6" y="3480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
