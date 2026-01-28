@@ -161,7 +161,7 @@
           <mxGeometry height="290" width="1817.33" x="7599" y="1720" as="geometry" />
         </mxCell>
         <mxCell id="QYFfZ5WZC9BAc5RdEJ7G-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;规则配置按钮&lt;br&gt;展示这个接口参数请求字段，在后续的规则配置里面做下拉可选&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="320" x="8520" y="2119.95" as="geometry" />
+          <mxGeometry height="80" width="320" x="8524" y="2139.1699999999996" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
