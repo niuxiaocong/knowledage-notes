@@ -950,8 +950,8 @@
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-98" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2626.5" y="2550" as="sourcePoint" />
-            <mxPoint x="2752" y="2550" as="targetPoint" />
+            <mxPoint x="2624.5" y="2550" as="sourcePoint" />
+            <mxPoint x="2750" y="2550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-100" connectable="0" parent="YURvEbrtXH-geYakyudA-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/oauth/login" vertex="1">
@@ -960,13 +960,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-96" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="user" vertex="1">
-          <mxGeometry height="60" width="31" x="2603.5" y="2520" as="geometry" />
+          <mxGeometry height="60" width="31" x="2601.5" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-102" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-101" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-99" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="获取用户信息" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="2520" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-104" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-103" value="Y">
           <mxGeometry relative="1" as="geometry" />
@@ -974,8 +974,8 @@
         <mxCell id="YURvEbrtXH-geYakyudA-116" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="YURvEbrtXH-geYakyudA-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2920" y="2670" />
-              <mxPoint x="2920" y="3260" />
+              <mxPoint x="2918" y="2670" />
+              <mxPoint x="2918" y="3260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -985,7 +985,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-101" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="用户是否存在" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="2640" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="2640" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-110" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-109" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -998,8 +998,8 @@
         <mxCell id="YURvEbrtXH-geYakyudA-119" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YURvEbrtXH-geYakyudA-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2720" y="2790" />
-              <mxPoint x="2720" y="3260" />
+              <mxPoint x="2718" y="2790" />
+              <mxPoint x="2718" y="3260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1009,28 +1009,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-103" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="用户密码校验" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="2760" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="2760" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="结束" vertex="1">
-          <mxGeometry height="60" width="50" x="2788.25" y="3230" as="geometry" />
+          <mxGeometry height="60" width="50" x="2786.25" y="3230" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-112" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-111" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-109" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="生成Token并缓存" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="2880" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="2880" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-114" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-113" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-111" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="将Token种到域名下面" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="3000" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="3000" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-115" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-106" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-113" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="生成登录授权码" vertex="1">
-          <mxGeometry height="60" width="120" x="2754" y="3120" as="geometry" />
+          <mxGeometry height="60" width="120" x="2752" y="3120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
