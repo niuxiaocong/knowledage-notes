@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="8k8j-T-q62QOuJQd29vZ">
-    <mxGraphModel dx="1516" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,8 +673,8 @@
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2481" as="sourcePoint" />
-            <mxPoint x="2481" y="3510" as="targetPoint" />
+            <mxPoint x="2480" as="sourcePoint" />
+            <mxPoint x="2480" y="4680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="注册业务流程" vertex="1">
@@ -1031,6 +1031,112 @@
         </mxCell>
         <mxCell id="YURvEbrtXH-geYakyudA-113" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Architects Daughter;rounded=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="生成登录授权码" vertex="1">
           <mxGeometry height="60" width="120" x="2752" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-121" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2481" y="3360" as="sourcePoint" />
+            <mxPoint x="3270" y="3360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="IM授权认证流程" vertex="1">
+          <mxGeometry height="40" width="121" x="2559" y="3439" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-123" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="user" vertex="1">
+          <mxGeometry height="60" width="31" x="2604" y="3560" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-124" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2639" y="3599" as="sourcePoint" />
+            <mxPoint x="2790" y="3599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-125" connectable="0" parent="YURvEbrtXH-geYakyudA-124" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/current/info" vertex="1">
+          <mxGeometry relative="1" x="-0.3121" y="-1" as="geometry">
+            <mxPoint x="17" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-129" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2859" y="3709.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OauthFilter&lt;br&gt;授权认证过滤器" vertex="1">
+          <mxGeometry height="60" width="120" x="2799" y="3570" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-134" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-133" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-143" connectable="0" parent="YURvEbrtXH-geYakyudA-134" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.3973" y="-1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-139" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="YURvEbrtXH-geYakyudA-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2780" y="3740" />
+              <mxPoint x="2680" y="3740" />
+              <mxPoint x="2680" y="4150" />
+              <mxPoint x="2800" y="4150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-140" connectable="0" parent="YURvEbrtXH-geYakyudA-139" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
+          <mxGeometry relative="1" x="-0.0767" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-132" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="通过Cookie认证是否登录？" vertex="1">
+          <mxGeometry height="90" width="160" x="2780" y="3693" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-136" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-135" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-144" connectable="0" parent="YURvEbrtXH-geYakyudA-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.0683" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-141" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YURvEbrtXH-geYakyudA-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2720" y="3885" />
+              <mxPoint x="2720" y="4149" />
+            </Array>
+            <mxPoint x="2920" y="4149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-142" connectable="0" parent="YURvEbrtXH-geYakyudA-141" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
+          <mxGeometry relative="1" x="-0.1019" y="-1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-133" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="通过Token认证是否登录？" vertex="1">
+          <mxGeometry height="90" width="160" x="2780.5" y="3840" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-138" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YURvEbrtXH-geYakyudA-137" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-146" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YURvEbrtXH-geYakyudA-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-135" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="通过Oauth认证是否登录？" vertex="1">
+          <mxGeometry height="90" width="160" x="2780.5" y="3990" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-150" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YURvEbrtXH-geYakyudA-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-137" parent="1" style="whiteSpace=wrap;html=1;" value="拉取用户信息" vertex="1">
+          <mxGeometry height="60" width="120" x="2799.5" y="4119" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-149" edge="1" parent="1" source="YURvEbrtXH-geYakyudA-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YURvEbrtXH-geYakyudA-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-145" parent="1" style="whiteSpace=wrap;html=1;" value="登录失败提出" vertex="1">
+          <mxGeometry height="60" width="120" x="2999" y="4119" as="geometry" />
+        </mxCell>
+        <mxCell id="YURvEbrtXH-geYakyudA-147" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="50" width="62" x="2829.5" y="4240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
