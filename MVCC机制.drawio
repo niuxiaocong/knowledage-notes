@@ -85,7 +85,7 @@
         <mxCell id="yQghreIsecGz5uaDvWK3-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="select money from tb_account where account = &quot;10087&quot;" vertex="1">
           <mxGeometry height="40" width="360" x="410" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yQghreIsecGz5uaDvWK3-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="commit" vertex="1">
           <mxGeometry height="40" width="370" x="40" y="800" as="geometry" />
         </mxCell>
         <mxCell id="yQghreIsecGz5uaDvWK3-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -94,17 +94,35 @@
         <mxCell id="yQghreIsecGz5uaDvWK3-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="40" width="370" x="40" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yQghreIsecGz5uaDvWK3-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="commit" vertex="1">
           <mxGeometry height="40" width="360" x="410" y="840" as="geometry" />
         </mxCell>
         <mxCell id="yQghreIsecGz5uaDvWK3-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="40" width="370" x="40" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yQghreIsecGz5uaDvWK3-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="begin" vertex="1">
           <mxGeometry height="40" width="360" x="410" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="使用锁来控制读写冲突" vertex="1">
+        <mxCell id="yQghreIsecGz5uaDvWK3-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="使用MVCC来控制读写冲突" vertex="1">
           <mxGeometry height="40" width="200" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="370" x="40" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="select money from tb_account where account = &quot;10087&quot;" vertex="1">
+          <mxGeometry height="40" width="360" x="410" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="370" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="360" x="410" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="370" x="40" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="360" x="410" y="1000" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
