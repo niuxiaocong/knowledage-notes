@@ -543,7 +543,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yQghreIsecGz5uaDvWK3-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="db_trx_id:10，事物活跃列表里面包含，所以这个版本的数据对T2事物不可见。回滚指针往上翻db_trx_id:8，小于最小事物ID所以，T2事物查的数据money还是2300" vertex="1">
-          <mxGeometry height="120" width="400" x="1720" y="3280" as="geometry" />
+          <mxGeometry height="80" width="400" x="1720" y="3320" as="geometry" />
         </mxCell>
         <mxCell id="yQghreIsecGz5uaDvWK3-180" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
