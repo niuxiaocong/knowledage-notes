@@ -188,6 +188,54 @@
         <mxCell id="yQghreIsecGz5uaDvWK3-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="db_roll_prt" vertex="1">
           <mxGeometry height="40" width="120" x="520" y="1360" as="geometry" />
         </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="Read View 可见性判断" vertex="1">
+          <mxGeometry height="40" width="200" x="40" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="money:2300" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="account:10087" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trx_id:1" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="money:2300" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="account:10087" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trx_id:7" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="money:2300" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="account:10087" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trx_id:9" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="db_roll_prt" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="db_roll_prt" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="db_roll_prt" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="row_id:1" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="row_id:2" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="yQghreIsecGz5uaDvWK3-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="row_id:3" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="1800" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
