@@ -520,7 +520,7 @@
         <mxCell id="yQghreIsecGz5uaDvWK3-169" edge="1" parent="1" source="yQghreIsecGz5uaDvWK3-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" target="yQghreIsecGz5uaDvWK3-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-176" edge="1" parent="1" source="yQghreIsecGz5uaDvWK3-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yQghreIsecGz5uaDvWK3-175" value="">
+        <mxCell id="yQghreIsecGz5uaDvWK3-176" edge="1" parent="1" source="yQghreIsecGz5uaDvWK3-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="yQghreIsecGz5uaDvWK3-175" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQghreIsecGz5uaDvWK3-177" connectable="0" parent="yQghreIsecGz5uaDvWK3-176" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="可见性判断" vertex="1">
@@ -542,7 +542,7 @@
             <mxPoint x="15" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQghreIsecGz5uaDvWK3-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;orphans: 4; text-align: start;&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="yQghreIsecGz5uaDvWK3-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="db_trx_id:10，事物活跃列表里面包含，所以这个版本的数据对T2事物不可见。回滚指针往上翻db_trx_id:8，小于最小事物ID所以，T2事物查的数据money还是2300" vertex="1">
           <mxGeometry height="120" width="330" x="1720" y="3640" as="geometry" />
         </mxCell>
       </root>
