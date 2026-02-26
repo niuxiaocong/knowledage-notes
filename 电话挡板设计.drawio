@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.4">
   <diagram name="第 1 页" id="aHm5EyLOWf9Ts7qCe8Kd">
-    <mxGraphModel dx="12222" dy="4867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5868" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,6 +363,86 @@
         </mxCell>
         <mxCell id="Lbr8D7vZpxhynHUqXjG6-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="挡板数据V2版本设计" vertex="1">
           <mxGeometry height="80" width="200" x="3400" y="14420" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6160" y="720" as="sourcePoint" />
+            <mxPoint x="6160" y="4580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-6" edge="1" parent="1" source="calop3UCya8SQldlNG8z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6609.999999999998" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-7" connectable="0" parent="calop3UCya8SQldlNG8z-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="接口信息维护" vertex="1">
+          <mxGeometry relative="1" x="0.0122" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="40" x="6360" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="600" width="480" x="6640" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="Mock平台" vertex="1">
+          <mxGeometry height="80" width="160" x="6799" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-10" edge="1" parent="1" source="calop3UCya8SQldlNG8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="calop3UCya8SQldlNG8z-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1、接口信息维护" vertex="1">
+          <mxGeometry height="60" width="161" x="6799" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-12" edge="1" parent="1" source="calop3UCya8SQldlNG8z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="calop3UCya8SQldlNG8z-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、配置接口可选字段" vertex="1">
+          <mxGeometry height="60" width="161" x="6798" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-14" edge="1" parent="1" source="calop3UCya8SQldlNG8z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="calop3UCya8SQldlNG8z-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、mock数据拉取" vertex="1">
+          <mxGeometry height="60" width="161" x="6799" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、mock数据匹配规则配置" vertex="1">
+          <mxGeometry height="60" width="161" x="6798" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Webhook服务" vertex="1">
+          <mxGeometry height="80" width="160" x="7280" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-16" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="7345" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="7360" y="1019" as="sourcePoint" />
+            <mxPoint x="7360" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=0.934;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="7272" y="1240" as="sourcePoint" />
+            <mxPoint x="7126.319999999998" y="1240.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-19" connectable="0" parent="calop3UCya8SQldlNG8z-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用数据匹配接口" vertex="1">
+          <mxGeometry relative="1" x="0.3728" y="-2" as="geometry">
+            <mxPoint x="28" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="7130" y="1265" as="sourcePoint" />
+            <mxPoint x="7270" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="calop3UCya8SQldlNG8z-21" connectable="0" parent="calop3UCya8SQldlNG8z-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="返回数据匹配信息" vertex="1">
+          <mxGeometry relative="1" x="-0.298" y="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
